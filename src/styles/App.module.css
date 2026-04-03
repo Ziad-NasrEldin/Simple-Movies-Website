@@ -1,0 +1,9 @@
+.appShell {
+  min-height: 100dvh;
+}
+
+.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}

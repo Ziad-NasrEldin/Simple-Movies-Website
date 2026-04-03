@@ -1,0 +1,64 @@
+.card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.poster {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  background: #200c0c;
+}
+
+.cardBody {
+  padding: 0.95rem;
+}
+
+.cardBody h3 {
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+
+.cardBody p {
+  margin: 0.25rem 0;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 0.85rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.primary {
+  background: var(--blood);
+  color: #fff;
+}
+
+.primary:hover {
+  background: var(--blood-dark);
+}
+
+.danger {
+  background: #300404;
+  color: #ffd9d9;
+  border: 1px solid #6d0a0a;
+}
+
+.danger:hover {
+  background: #460505;
+}
