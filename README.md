@@ -1,5 +1,7 @@
 # Simple Movies Website
 
+This is Ziad's fork of [shaker03/Simple-Movies-Website](https://github.com/shaker03/Simple-Movies-Website).
+
 A simple React movie app built with Vite.
 
 ## Overview
@@ -28,27 +30,6 @@ This project demonstrates:
 - Add a new movie from form
 - View movie details
 - Update movie data from details page
-
-## State Management
-
-Global movie state is managed with Context API:
-
-- Provider: `src/context/moviesProvider.jsx`
-- Context object: `src/context/moviesContext.js`
-- Consumer hook: `src/hooks/useMovies.js`
-
-## Styling
-
-- Uses CSS Modules
-- Module styles are centralized under `src/styles/`
-- Theme is black and blood red
-
-## Tech Stack
-
-- React
-- React Router DOM
-- Vite
-- ESLint
 
 ## Run Locally
 
@@ -80,3 +61,9 @@ npm run preview
 
 - API fetch is real.
 - Add/Update/Remove operations are local (in-memory state), so changes reset on page refresh.
+
+---
+
+Built by [Ziad Ahmed](https://github.com/Ziad-NasrEldin) at [MaVoid](https://mavoid.com).
+
+[Website](https://mavoid.com) · [LinkedIn](https://linkedin.com/in/ziad-ahmed-634202332) · [GitHub](https://github.com/Ziad-NasrEldin)
