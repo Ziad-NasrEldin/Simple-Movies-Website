@@ -1,12 +1,14 @@
 # Simple Movies Website
 
 <p align="center">
-  <img src="src/assets/hero.png" alt="Simple Movies Website" width="900">
+  <img src="docs/hero.png" alt="Simple Movies Website" width="900">
 </p>
 
 This is Ziad's fork of [shaker03/Simple-Movies-Website](https://github.com/shaker03/Simple-Movies-Website).
 
 A simple React movie app built with Vite.
+
+Live: [simple-movies-website.vercel.app](https://simple-movies-website.vercel.app)
 
 ## Overview
 
